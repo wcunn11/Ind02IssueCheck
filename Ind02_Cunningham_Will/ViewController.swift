@@ -14,11 +14,15 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        //creating array to hold centers
         var centers = [CGPoint]()
+        //to have starting values stored
+        var starting = [CGPoint]()
         
         var xCen = 56.5
         var yCen = 146.5
         
+        //for some reason my nested loops didn't work
         for i in 1...4{
             centers.append(CGPoint(x: xCen, y:yCen))
             xCen = xCen + 93
@@ -50,6 +54,8 @@ class ViewController: UIViewController {
             
     }
     
+    
+    //TapGesture functions
     @IBAction func picture2(_ sender: UITapGestureRecognizer) {
         print("2")
     }
@@ -127,10 +133,7 @@ class ViewController: UIViewController {
     @IBAction func Shuffle(_ sender: UIButton) {
         
     }
-    
-    @IBAction func shuffle(_ sender: Any) {
-        UIImage(data: ("Image View"))
-    }
+        
 }
 
 

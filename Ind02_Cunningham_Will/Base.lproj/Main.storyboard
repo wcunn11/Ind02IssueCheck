@@ -167,7 +167,7 @@
                                     <outletCollection property="gestureRecognizers" destination="K15-Rk-Nbc" appends="YES" id="YJV-8M-XQM"/>
                                 </connections>
                             </imageView>
-                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="0-0.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="6Ri-Uy-s7b">
+                            <imageView clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="start.png" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6Ri-Uy-s7b">
                                 <rect key="frame" x="21" y="100" width="93" height="93"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <gestureRecognizers/>
@@ -195,8 +195,22 @@
                                     <outletCollection property="gestureRecognizers" destination="p41-b6-uiK" appends="YES" id="U73-8f-3tC"/>
                                 </connections>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JMB-un-9hJ">
+                                <rect key="frame" x="170" y="737" width="75" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Button"/>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Will Cunningham" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dFm-MX-Klx">
+                                <rect key="frame" x="131" y="48" width="152" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemGray3Color"/>
+                                <color key="textColor" systemColor="systemGreenColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" systemColor="systemGray3Color"/>
                         <gestureRecognizers/>
                     </view>
                     <connections>
@@ -204,7 +218,6 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-                <swipeGestureRecognizer direction="right" id="b2R-Z0-N5I"/>
                 <tapGestureRecognizer id="Hjp-7r-4Dw">
                     <connections>
                         <action selector="picture2:" destination="BYZ-38-t0r" id="YA1-Tw-5Wo"/>
@@ -306,7 +319,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="0-0.jpg" width="801" height="810"/>
         <image name="0-1.jpg" width="534" height="541"/>
         <image name="0-2.jpg" width="534" height="541"/>
         <image name="0-3.jpg" width="534" height="541"/>
@@ -326,8 +338,12 @@
         <image name="3-2.jpg" width="541" height="541"/>
         <image name="3-3.jpg" width="541" height="541"/>
         <image name="3-4.jpg" width="541" height="541"/>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        <image name="start.png" width="335" height="192.5"/>
+        <systemColor name="systemGray3Color">
+            <color red="0.7803921568627451" green="0.7803921568627451" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
