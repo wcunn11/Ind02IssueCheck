@@ -11,7 +11,7 @@ class ViewController: UIViewController {
 
     @IBOutlet var imageView: UIImageView!
 
-    override func viewDidLoad() {
+    override func viewDidLoad() -> <#Return Type#> -> <#Return Type#> -> <#Return Type#> {
         super.viewDidLoad()
         
         //creating array to hold centers
@@ -51,7 +51,7 @@ class ViewController: UIViewController {
             centers.append(CGPoint(x: xCen, y:yCen))
             xCen = xCen + 93
         }
-            
+        return 0;
     }
     
     
