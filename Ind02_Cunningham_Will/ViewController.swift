@@ -33,6 +33,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var fullImage: UIImageView!
     @IBOutlet weak var Showanswer: UIButton!
     @IBOutlet weak var Shuffle: UIButton!
+    @IBOutlet weak var popUpView: UIView!
     @IBOutlet weak var ShowA: UILabel!
     var isCheked = true
     var centers : [CGPoint] = [CGPoint]()
@@ -69,6 +70,7 @@ class ViewController: UIViewController {
             constraint.isActive = false
         }
         //calling the function
+        popUpView.isHidden = true
         fullImage.isHidden = true
         getCenters()
         getImages()
@@ -85,6 +87,56 @@ class ViewController: UIViewController {
         up()
         down()
         
+        func checkAnswer(){
+            var a = picture1.center
+            var b = picture2.center
+            var c = picture3.center
+            var d = picture4.center
+            var e = picture5.center
+            var f = picture6.center
+            var g = picture7.center
+            var h = picture8.center
+            var i = picture9.center
+            var j = picture10.center
+            var k = picture11.center
+            var l = picture12.center
+            var m = picture13.center
+            var n = picture14.center
+            var o = picture15.center
+            var p = picture16.center
+            var q = picture17.center
+            var r = picture18.center
+            var s = picture19.center
+            var t = picture20.center
+            var aa = centers[0]
+            var bb = centers[1]
+            var cc = centers[2]
+            var dd = centers[3]
+            var ee = centers[4]
+            var ff = centers[5]
+            var gg = centers[6]
+            var hh = centers[7]
+            var ii = centers[8]
+            var jj = centers[9]
+            var kk = centers[10]
+            var ll = centers[11]
+            var mm = centers[12]
+            var nn = centers[13]
+            var oo = centers[14]
+            var pp = centers[15]
+            var qq = centers[16]
+            var rr = centers[17]
+            var ss = centers[18]
+            var tt = centers[19]
+            
+            if(a == aa && b == bb && c == cc && d == dd && e == ee && f == ff && g == gg && h == hh && i == ii && j == jj && k == kk && l == ll && m == mm && n == nn && o == oo && p == pp && q == qq && r == rr && s == ss && t == tt){
+                popUpView.isHidden = false
+                
+            }
+            
+                
+            
+        }
         func left(){
             var temp = tapCen
             var tempx = tapCen!.x - 93
@@ -96,6 +148,7 @@ class ViewController: UIViewController {
                 sender.view?.center = picture1.center
                 picture1.center = tapCen!
             }
+            checkAnswer()
         }
         func right(){
             var temp = tapCen
@@ -108,6 +161,7 @@ class ViewController: UIViewController {
                 sender.view?.center = picture1.center
                 picture1.center = tapCen!
             }
+            checkAnswer()
         }
         func up(){
             var temp = tapCen
@@ -120,6 +174,7 @@ class ViewController: UIViewController {
                 sender.view?.center = picture1.center
                 picture1.center = tapCen!
             }
+            checkAnswer()
         }
         func down(){
             var temp = tapCen
@@ -132,6 +187,7 @@ class ViewController: UIViewController {
                 sender.view?.center = picture1.center
                 picture1.center = tapCen!
             }
+            checkAnswer()
         }
         
         
