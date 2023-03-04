@@ -30,9 +30,14 @@ class ViewController: UIViewController {
     @IBOutlet weak var picture18: UIImageView!
     @IBOutlet weak var picture19: UIImageView!
     @IBOutlet weak var picture20: UIImageView!
-    @IBOutlet var buttons: UIButton!
+    @IBOutlet weak var fullImage: UIImageView!
+    @IBOutlet weak var Showanswer: UIButton!
     @IBOutlet weak var Shuffle: UIButton!
+    @IBOutlet weak var ShowA: UILabel!
+    var isCheked = true
     var centers : [CGPoint] = [CGPoint]()
+    var ocenters : [CGPoint] = [CGPoint]()
+    
     var imagesArray : [UIImageView] = [UIImageView]()
     var starting = [CGPoint]()
     func getCenters() -> [CGPoint]{
@@ -64,6 +69,7 @@ class ViewController: UIViewController {
             constraint.isActive = false
         }
         //calling the function
+        fullImage.isHidden = true
         getCenters()
         getImages()
     }
@@ -128,16 +134,21 @@ class ViewController: UIViewController {
             }
         }
         
-        var getTag = sender.view?.tag
         
+    }// end of tap gesture
+
         
-        if(getTag == 2){
-            //checkup(a: 2)
-            //checkdown(a: 2)
-            //left(a: 2)
-            //checkright(a: 2)
+    @IBAction func Showanswer(_ sender: UITapGestureRecognizer) {
+        if(fullImage.isHidden == true){
+            fullImage.isHidden = false
+            Showanswer.setTitle("Hide Answer", for: .normal)
+        }
+        else{
+            fullImage.isHidden = true
+            Showanswer.setTitle("Show Answer", for: .normal)
         }
     }
+    
     
     @IBAction func Shuffle(_ sender: Any) {
         for i in 0...24{
@@ -732,5 +743,5 @@ class ViewController: UIViewController {
                 }
             }
         }
-    }
-}
+    }//end of shuffle
+}//end of main

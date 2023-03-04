@@ -19,7 +19,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" tag="14" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="picture4.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="uLD-fI-i40">
+                            <imageView clipsSubviews="YES" tag="14" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fullimage-3-0.png" translatesAutoresizingMaskIntoConstraints="NO" id="uLD-fI-i40">
                                 <rect key="frame" x="300" y="100" width="93" height="93"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <gestureRecognizers/>
@@ -27,7 +27,7 @@
                                     <outletCollection property="gestureRecognizers" destination="Gjb-mA-gqf" appends="YES" id="Hwe-l8-7jl"/>
                                 </connections>
                             </imageView>
-                            <imageView clipsSubviews="YES" tag="12" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="picture2.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="4A7-KS-30S">
+                            <imageView clipsSubviews="YES" tag="12" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fullimage-1-0.png" translatesAutoresizingMaskIntoConstraints="NO" id="4A7-KS-30S">
                                 <rect key="frame" x="114" y="100" width="93" height="93"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <accessibility key="accessibilityConfiguration">
@@ -39,7 +39,7 @@
                                     <outletCollection property="gestureRecognizers" destination="Hjp-7r-4Dw" appends="YES" id="ORA-uA-xSo"/>
                                 </connections>
                             </imageView>
-                            <imageView clipsSubviews="YES" tag="21" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="picture5.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="miL-sF-0kY">
+                            <imageView clipsSubviews="YES" tag="21" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fullimage-0-1.png" translatesAutoresizingMaskIntoConstraints="NO" id="miL-sF-0kY">
                                 <rect key="frame" x="21" y="193" width="93" height="93"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <gestureRecognizers/>
@@ -47,7 +47,7 @@
                                     <outletCollection property="gestureRecognizers" destination="isp-vf-7DE" appends="YES" id="jlK-Gt-Sqt"/>
                                 </connections>
                             </imageView>
-                            <imageView clipsSubviews="YES" tag="24" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="picture8.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="iMl-Ev-cuR">
+                            <imageView clipsSubviews="YES" tag="24" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fullimage-3-1.png" translatesAutoresizingMaskIntoConstraints="NO" id="iMl-Ev-cuR">
                                 <rect key="frame" x="300" y="193" width="93" height="93"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <gestureRecognizers/>
@@ -55,7 +55,7 @@
                                     <outletCollection property="gestureRecognizers" destination="3yg-th-olk" appends="YES" id="KAG-3C-uLL"/>
                                 </connections>
                             </imageView>
-                            <imageView clipsSubviews="YES" tag="23" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="picture7.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="Wbr-A9-GI4">
+                            <imageView clipsSubviews="YES" tag="23" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fullimage-2-1.png" translatesAutoresizingMaskIntoConstraints="NO" id="Wbr-A9-GI4">
                                 <rect key="frame" x="207" y="193" width="93" height="93"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <gestureRecognizers/>
@@ -63,7 +63,7 @@
                                     <outletCollection property="gestureRecognizers" destination="79p-mC-M6V" appends="YES" id="sDW-5H-n4n"/>
                                 </connections>
                             </imageView>
-                            <imageView clipsSubviews="YES" tag="22" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="picture6.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="Fkw-op-PYL">
+                            <imageView clipsSubviews="YES" tag="22" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fullimage-1-1.png" translatesAutoresizingMaskIntoConstraints="NO" id="Fkw-op-PYL">
                                 <rect key="frame" x="114" y="193" width="93" height="93"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <gestureRecognizers/>
@@ -71,7 +71,7 @@
                                     <outletCollection property="gestureRecognizers" destination="8D9-60-IoR" appends="YES" id="aMs-Ed-fyk"/>
                                 </connections>
                             </imageView>
-                            <imageView clipsSubviews="YES" tag="31" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="picture9.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="aGl-S3-2NC">
+                            <imageView clipsSubviews="YES" tag="31" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fullimage-0-2.png" translatesAutoresizingMaskIntoConstraints="NO" id="aGl-S3-2NC">
                                 <rect key="frame" x="21" y="286" width="93" height="93"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <gestureRecognizers/>
@@ -79,7 +79,7 @@
                                     <outletCollection property="gestureRecognizers" destination="un8-7U-iOa" appends="YES" id="zDs-Qx-uwn"/>
                                 </connections>
                             </imageView>
-                            <imageView clipsSubviews="YES" tag="34" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="picture12.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="LLs-k8-pTm">
+                            <imageView clipsSubviews="YES" tag="34" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fullimage-3-2.png" translatesAutoresizingMaskIntoConstraints="NO" id="LLs-k8-pTm">
                                 <rect key="frame" x="300" y="286" width="93" height="93"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <gestureRecognizers/>
@@ -87,7 +87,7 @@
                                     <outletCollection property="gestureRecognizers" destination="wuv-1l-sty" appends="YES" id="slN-zs-a50"/>
                                 </connections>
                             </imageView>
-                            <imageView clipsSubviews="YES" tag="33" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="picture11.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="iJd-kD-Hka">
+                            <imageView clipsSubviews="YES" tag="33" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fullimage-2-2.png" translatesAutoresizingMaskIntoConstraints="NO" id="iJd-kD-Hka">
                                 <rect key="frame" x="207" y="286" width="93" height="93"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <gestureRecognizers/>
@@ -95,7 +95,7 @@
                                     <outletCollection property="gestureRecognizers" destination="IFh-4T-1Yz" appends="YES" id="QJm-sz-kEb"/>
                                 </connections>
                             </imageView>
-                            <imageView clipsSubviews="YES" tag="32" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="picture10.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="RMm-XX-dwA">
+                            <imageView clipsSubviews="YES" tag="32" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fullimage-1-2.png" translatesAutoresizingMaskIntoConstraints="NO" id="RMm-XX-dwA">
                                 <rect key="frame" x="114" y="286" width="93" height="93"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <gestureRecognizers/>
@@ -103,7 +103,7 @@
                                     <outletCollection property="gestureRecognizers" destination="6ef-5g-OBn" appends="YES" id="eSa-Ah-IEQ"/>
                                 </connections>
                             </imageView>
-                            <imageView clipsSubviews="YES" tag="41" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="picture13.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="g7Y-iE-hPg">
+                            <imageView clipsSubviews="YES" tag="41" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fullimage-0-3.png" translatesAutoresizingMaskIntoConstraints="NO" id="g7Y-iE-hPg">
                                 <rect key="frame" x="21" y="379" width="93" height="93"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <gestureRecognizers/>
@@ -111,7 +111,7 @@
                                     <outletCollection property="gestureRecognizers" destination="yiO-Hd-qOb" appends="YES" id="E38-Si-shy"/>
                                 </connections>
                             </imageView>
-                            <imageView clipsSubviews="YES" tag="44" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="picture16.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="aHE-aY-H2P">
+                            <imageView clipsSubviews="YES" tag="44" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fullimage-3-3.png" translatesAutoresizingMaskIntoConstraints="NO" id="aHE-aY-H2P">
                                 <rect key="frame" x="300" y="379" width="93" height="93"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <gestureRecognizers/>
@@ -119,7 +119,7 @@
                                     <outletCollection property="gestureRecognizers" destination="iia-vB-fX5" appends="YES" id="Plh-CT-Bxy"/>
                                 </connections>
                             </imageView>
-                            <imageView clipsSubviews="YES" tag="43" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="picture15.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="WVC-S9-1F1">
+                            <imageView clipsSubviews="YES" tag="43" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fullimage-2-3.png" translatesAutoresizingMaskIntoConstraints="NO" id="WVC-S9-1F1">
                                 <rect key="frame" x="207" y="379" width="93" height="93"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <gestureRecognizers/>
@@ -127,7 +127,7 @@
                                     <outletCollection property="gestureRecognizers" destination="Ifd-gA-FiZ" appends="YES" id="isI-z9-iJW"/>
                                 </connections>
                             </imageView>
-                            <imageView clipsSubviews="YES" tag="42" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="picture14.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="WVc-Cd-L6R">
+                            <imageView clipsSubviews="YES" tag="42" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fullimage-1-3.png" translatesAutoresizingMaskIntoConstraints="NO" id="WVc-Cd-L6R">
                                 <rect key="frame" x="114" y="379" width="93" height="93"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <gestureRecognizers/>
@@ -135,7 +135,7 @@
                                     <outletCollection property="gestureRecognizers" destination="RD7-GD-7Hf" appends="YES" id="NCL-mJ-vkW"/>
                                 </connections>
                             </imageView>
-                            <imageView clipsSubviews="YES" tag="51" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="picture17.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="x9o-qh-Mp2">
+                            <imageView clipsSubviews="YES" tag="51" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fullimage-0-4.png" translatesAutoresizingMaskIntoConstraints="NO" id="x9o-qh-Mp2">
                                 <rect key="frame" x="21" y="472" width="93" height="93"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <gestureRecognizers/>
@@ -143,7 +143,7 @@
                                     <outletCollection property="gestureRecognizers" destination="QeZ-dR-HXe" appends="YES" id="ZKi-R6-EZs"/>
                                 </connections>
                             </imageView>
-                            <imageView clipsSubviews="YES" tag="54" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="picture20.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="QsM-Fy-t6f">
+                            <imageView clipsSubviews="YES" tag="54" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fullimage-3-4.png" translatesAutoresizingMaskIntoConstraints="NO" id="QsM-Fy-t6f">
                                 <rect key="frame" x="300" y="472" width="93" height="93"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <gestureRecognizers/>
@@ -151,7 +151,7 @@
                                     <outletCollection property="gestureRecognizers" destination="Qwp-N0-lxE" appends="YES" id="h7U-6d-ppR"/>
                                 </connections>
                             </imageView>
-                            <imageView clipsSubviews="YES" tag="53" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="picture19.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="ZeM-UK-Uip">
+                            <imageView clipsSubviews="YES" tag="53" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fullimage-2-4.png" translatesAutoresizingMaskIntoConstraints="NO" id="ZeM-UK-Uip">
                                 <rect key="frame" x="207" y="472" width="93" height="93"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <gestureRecognizers/>
@@ -159,7 +159,7 @@
                                     <outletCollection property="gestureRecognizers" destination="POH-Yu-apr" appends="YES" id="SAX-Ml-KdQ"/>
                                 </connections>
                             </imageView>
-                            <imageView clipsSubviews="YES" tag="52" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="picture18.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="SxI-P3-4Pm">
+                            <imageView clipsSubviews="YES" tag="52" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fullimage-1-4.png" translatesAutoresizingMaskIntoConstraints="NO" id="SxI-P3-4Pm">
                                 <rect key="frame" x="114" y="472" width="93" height="93"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <gestureRecognizers/>
@@ -172,7 +172,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <gestureRecognizers/>
                             </imageView>
-                            <imageView clipsSubviews="YES" tag="13" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="picture3.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="o8v-3f-Q9x">
+                            <imageView clipsSubviews="YES" tag="13" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fullimage-2-0.png" translatesAutoresizingMaskIntoConstraints="NO" id="o8v-3f-Q9x">
                                 <rect key="frame" x="207" y="100" width="93" height="93"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <accessibility key="accessibilityConfiguration">
@@ -191,32 +191,41 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" pointerInteraction="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JMB-un-9hJ">
-                                <rect key="frame" x="144" y="747" width="127" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <gestureRecognizers/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Show Answer"/>
-                                <connections>
-                                    <outletCollection property="gestureRecognizers" destination="oiu-cy-F0Y" appends="YES" id="bCj-UR-G0k"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CUW-Pz-jCp">
-                                <rect key="frame" x="170" y="649" width="75" height="35"/>
+                                <rect key="frame" x="157" y="625" width="101" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <gestureRecognizers/>
+                                <color key="tintColor" systemColor="systemOrangeColor"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="tinted" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Shuffle">
+                                    <backgroundConfiguration key="background"/>
+                                </buttonConfiguration>
                                 <connections>
                                     <action selector="Shuffle:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="3Zs-GU-sIG"/>
                                     <outletCollection property="gestureRecognizers" destination="WHN-Gs-Hab" appends="YES" id="dag-Sc-qma"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" pointerInteraction="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JMB-un-9hJ">
+                                <rect key="frame" x="144" y="710" width="127" height="57"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Show Answer"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="oiu-cy-F0Y" appends="YES" id="zq7-N4-1om"/>
+                                </connections>
+                            </button>
+                            <imageView hidden="YES" opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fullimage.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="fgo-aS-Rvm">
+                                <rect key="frame" x="21" y="100" width="372" height="465"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemGray3Color"/>
                         <gestureRecognizers/>
                     </view>
                     <connections>
+                        <outlet property="Showanswer" destination="JMB-un-9hJ" id="oO4-xf-hT4"/>
+                        <outlet property="fullImage" destination="fgo-aS-Rvm" id="EkU-eE-nkl"/>
                         <outlet property="picture1" destination="6Ri-Uy-s7b" id="IuD-yq-Q1L"/>
                         <outlet property="picture10" destination="RMm-XX-dwA" id="CRk-BW-t4N"/>
                         <outlet property="picture11" destination="iJd-kD-Hka" id="L2l-AB-nhs"/>
@@ -335,14 +344,14 @@
                         <action selector="tapHandler:" destination="BYZ-38-t0r" id="h9Z-D1-68Q"/>
                     </connections>
                 </tapGestureRecognizer>
-                <tapGestureRecognizer id="oiu-cy-F0Y">
-                    <connections>
-                        <action selector="Button:" destination="BYZ-38-t0r" id="Rm0-v9-7xC"/>
-                    </connections>
-                </tapGestureRecognizer>
                 <tapGestureRecognizer id="WHN-Gs-Hab">
                     <connections>
                         <action selector="Shuffle:" destination="BYZ-38-t0r" id="Elj-DT-1X2"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="oiu-cy-F0Y">
+                    <connections>
+                        <action selector="Showanswer:" destination="BYZ-38-t0r" id="SJx-J9-pfl"/>
                     </connections>
                 </tapGestureRecognizer>
             </objects>
@@ -350,31 +359,35 @@
         </scene>
     </scenes>
     <resources>
+        <image name="fullimage-0-1.png" width="728" height="728"/>
+        <image name="fullimage-0-2.png" width="728" height="728"/>
+        <image name="fullimage-0-3.png" width="728" height="728"/>
+        <image name="fullimage-0-4.png" width="728" height="728"/>
+        <image name="fullimage-1-0.png" width="728" height="728"/>
+        <image name="fullimage-1-1.png" width="728" height="728"/>
+        <image name="fullimage-1-2.png" width="728" height="728"/>
+        <image name="fullimage-1-3.png" width="728" height="728"/>
+        <image name="fullimage-1-4.png" width="728" height="728"/>
+        <image name="fullimage-2-0.png" width="728" height="728"/>
+        <image name="fullimage-2-1.png" width="728" height="728"/>
+        <image name="fullimage-2-2.png" width="728" height="728"/>
+        <image name="fullimage-2-3.png" width="728" height="728"/>
+        <image name="fullimage-2-4.png" width="728" height="728"/>
+        <image name="fullimage-3-0.png" width="728" height="728"/>
+        <image name="fullimage-3-1.png" width="728" height="728"/>
+        <image name="fullimage-3-2.png" width="728" height="728"/>
+        <image name="fullimage-3-3.png" width="728" height="728"/>
+        <image name="fullimage-3-4.png" width="728" height="728"/>
+        <image name="fullimage.jpg" width="3216" height="3648"/>
         <image name="picture1.PNG" width="335" height="192.5"/>
-        <image name="picture10.JPG" width="547" height="541"/>
-        <image name="picture11.JPG" width="541" height="541"/>
-        <image name="picture12.JPG" width="541" height="541"/>
-        <image name="picture13.JPG" width="534" height="541"/>
-        <image name="picture14.JPG" width="547" height="541"/>
-        <image name="picture15.JPG" width="541" height="541"/>
-        <image name="picture16.JPG" width="541" height="541"/>
-        <image name="picture17.JPG" width="534" height="541"/>
-        <image name="picture18.JPG" width="547" height="541"/>
-        <image name="picture19.JPG" width="541" height="541"/>
-        <image name="picture2.JPG" width="547" height="540"/>
-        <image name="picture20.JPG" width="541" height="541"/>
-        <image name="picture3.JPG" width="541" height="540"/>
-        <image name="picture4.JPG" width="541" height="540"/>
-        <image name="picture5.JPG" width="534" height="541"/>
-        <image name="picture6.JPG" width="547" height="541"/>
-        <image name="picture7.JPG" width="541" height="541"/>
-        <image name="picture8.JPG" width="541" height="541"/>
-        <image name="picture9.JPG" width="534" height="541"/>
         <systemColor name="systemGray3Color">
             <color red="0.7803921568627451" green="0.7803921568627451" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemGreenColor">
             <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
